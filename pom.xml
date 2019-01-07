@@ -44,11 +44,11 @@
 
 	<repositories>
 
-		<repository>
+<!--		<repository>
 			<id>gtaun-local-repo</id>
 			<name>GTAUN Local Repository</name>
 			<url>file://d:/maven/repo/net/gtaun/</url>
-		</repository>
+		</repository> -->
         <repository>
             <id>oxotarp-mvn-repo</id>
             <url>https://raw.github.com/odegay/OxotaRP_Arts/mvn-repo/</url>
@@ -209,7 +209,7 @@
 					<sourceLinks>
 						<link>
 							<dir>${project.basedir}/src/main/java</dir>
-							<url>http://github.com/Shoebill/shoebill-api</url>
+							<url>http://github.com/odegay/shoebill-api</url>
 						</link>
 					</sourceLinks>
 				</configuration>
